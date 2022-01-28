@@ -22,6 +22,8 @@ import (
 // shows a long list of discovery call but if you run this program with -v
 // The list of call is reduced significantly
 
+// Most of this example is taken from https://caiorcferreira.github.io/post/the-kubernetes-dynamic-client/
+
 // By default, it will take configuration from  ~/.kube/config and the selected namespace
 // use loadingRules.ExplicitPath = "/Users/luis/.kube/config" if you don't want that
 // use CurrentContext: "stage" on ConfigOverrides to change current context
